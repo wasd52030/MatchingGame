@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("info").innerHTML = "按開始以進行遊戲"
     document.getElementById("time").innerHTML = `${Seconds} Sec`
 
-    // Document.getElementsByClassName(classNames: string): HTMLCollectionOf<Element>
+    // Document.getElementsByClassName(classNames: string): HTMLCollection<Element>
     // about HTMLCollection: https://www.w3schools.com/jsref/dom_obj_htmlcollection.asp
     for (let i = 0; i < btns.length; i++) {
         btns[i].setAttribute('disabled', true)
